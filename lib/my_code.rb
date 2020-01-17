@@ -5,7 +5,7 @@ def map(array)
 
   array.each { |element|
 
-    new_array << yield( element)
+    new_array << yield( element )
 
     }
 
